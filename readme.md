@@ -77,7 +77,7 @@ This is a sub paragraph, formatted in heading 3 style
 #### Chat de Bate-Papo <a name="orboFrontChat"></a>
 This is a sub paragraph, formatted in heading 4 style
 
-#### Chat de Bate-Papo <a name="orboFrontEnquete"></a>
+#### Ferramentas de Enquetes <a name="orboFrontEnquete"></a>
 This is a sub paragraph, formatted in heading 4 style
 
 ## API - ORBO Integration <a name="orboApi"></a>
