@@ -1,0 +1,29 @@
+/* seção serviços */
+section#servicos {
+  padding-bottom: 5rem;
+}
+
+.albuns {
+  padding: 10px 0;
+}
+
+
+section#recursos div.embed {
+  margin-top: 8rem;
+  margin-bottom: 4rem;
+}
+
+@media (max-width: 767px) {
+
+
+  section#recursos div.embed .col-md-6 iframe {
+    width: 100%;
+    margin: 1rem auto;
+  }
+}
+
+
+section#recursos div.embed h2 {
+  margin: 1rem auto;
+  text-align: center;
+}

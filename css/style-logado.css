@@ -1,0 +1,6 @@
+body {
+  position: relative;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#212c39), color-stop(50%, #121e3d), to(#000));
+  background-image: linear-gradient(#212c39, #121e3d 50%, #000);
+  background-repeat: no-repeat;
+}

@@ -1,0 +1,32 @@
+/* footer */
+footer .navbar-nav a {
+  text-decoration: none;
+  line-height: 1.5rem;
+}
+
+footer .row > div {
+  width: 100%;
+  text-align: center;
+}
+
+footer .row > div img {
+  margin: 1rem auto;
+}
+
+footer .row > div ul {
+  width: 100%;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  margin: 1rem 0;
+  padding: 0;
+}
+
+footer .row > div h4 {
+  font-size: 1.2rem;
+}
+
+footer .row > div ul li a {
+  font-size: 1.1rem;
+  line-height: 1.8rem;
+}

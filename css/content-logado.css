@@ -1,0 +1,87 @@
+/* section content  */
+section#content {
+  background: #fff;
+  color: #000;
+  padding: 2rem;
+}
+
+section#content h1 {
+  margin: 1rem 0;
+  font-size: 3rem;
+  color: #000;
+}
+
+section#content h3 {
+  color: #000;
+}
+
+/* table  */
+section#content table.table-user {
+  border-collapse: collapse;
+  max-width: 100%;
+  text-align: left;
+  width: 100%;
+}
+
+section#content table.table-user tbody tr {
+  border-bottom: 1px solid rgb(238, 238, 238);
+}
+
+section#content table.table-user tbody tr td {
+  padding: 1em 1em 1em 0px;
+  white-space: nowrap;
+}
+
+/* button  */
+section#content .cta-edit {
+  letter-spacing: 1.5px;
+  font-size: 14px;
+  width: auto;
+  display: inline-block;
+  border: 2px solid #757575;
+  color: #757575;
+  user-select: none;
+  text-decoration: none;
+  cursor: pointer;
+  transition-property: background-color, border-color, color, box-shadow, filter, transform, -webkit-box-shadow, -webkit-filter, -webkit-transform;
+  font-weight: bold;
+  line-height: 20px;
+  padding: 1em 3em;
+  text-align: center;
+  text-transform: uppercase;
+  border-radius: 100px;
+  min-height: 48px;
+  margin-top: 
+  
+  2rem;
+}
+
+section#content .cta-edit.danger {
+  border: 2px solid #9D1B24;
+  color: #9D1B24;
+}
+
+section#content .cta-edit:hover {
+  transform: scale(1.05);
+  color: #000;
+  border-color: #000;
+}
+
+section#content .cta-edit.danger:hover {
+  border: 2px solid #ED1B24;
+  color: #ED1B24;
+}
+
+@media screen and (min-width: 1200px) {
+  section#content {
+    width: 1170px;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  section#content {
+    width: 970px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+}

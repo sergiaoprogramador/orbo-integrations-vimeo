@@ -1,0 +1,298 @@
+main {
+  padding-top: 3rem;
+}
+
+/* itens padronizados */
+h2 {
+  text-align: center;
+  font-size: 2rem;
+  margin: 1.5rem 0;
+}
+
+h3 {
+  text-align: center;
+  font-size: 1.3rem;
+  margin: 1.5rem 0;
+  color: #000;
+}
+
+label {
+  color: rgb(24, 24, 24);
+}
+
+.input-label {
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 0.25px;
+  -webkit-box-align: center;
+  align-items: center;
+  display: flex;
+  font-weight: 700;
+  width: 100%;
+}
+
+input {
+  box-shadow: rgb(189, 189, 189) 0px 0px 0px 1px inset;
+  border-radius: 4px;
+  padding: 14px;
+  appearance: none;
+  background-image: none;
+  border: 0px;
+  display: block;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0.25px;
+  width: 100%;
+  background-color: rgb(255, 255, 255);
+  color: rgb(24, 24, 24);
+}
+
+select {
+  box-shadow: rgb(189, 189, 189) 0px 0px 0px 1px inset;
+  border-radius: 4px;
+  padding: 14px;
+  appearance: none;
+  background-image: none;
+  border: 0px;
+  display: block;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0.25px;
+  width: 100%;
+  background-color: rgb(255, 255, 255);
+  color: rgb(24, 24, 24);
+}
+
+input[type=radio], input[type=checkbox] {
+  background: transparent;
+  background-color: initial;
+  appearance: radio;
+  box-sizing: border-box;
+  border-radius: 50%;
+  display: inline-block;
+  height: 18px;
+  position: relative;
+  /* user-select: none; */
+  width: 18px;
+  flex-shrink: 0;
+  align-self: flex-start;
+  top: 4px;
+  border: 1px solid rgb(189, 189, 189);
+  box-shadow: none;
+  padding: 0;
+}
+
+input[type=checkbox] {
+  appearance: checkbox;
+}
+
+/* form auth  */
+.authenticate-form {
+  max-width: 450px;
+  margin: 0px auto;
+  padding-bottom: 130px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.authenticate-form .header-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.authenticate-form .header-form .logo-spotify svg {
+  height: 40px;
+}
+
+.authenticate-form .parent-group {
+  display: flex;
+  -webkit-box-pack: justify;
+  justify-content: space-between;
+}
+
+.day {
+  width: 20%;
+}
+
+.month {
+  width: 45%;
+}
+
+.year {
+  width: 25%;
+}
+
+.authenticate-form .parent-group {
+  
+}
+
+.form-group {
+  margin: 2rem 0;
+}
+
+.form-btn {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+}
+
+.form-btn > div, .form-btn > p {
+  text-align: center;
+}
+
+.form-btn > div .btn-login {
+  transform: scale(1);
+  background-color: rgb(30, 215, 96);
+  color: rgb(255, 255, 255);
+  width: 100%;
+  border: 0px;
+  border-radius: 500px;
+  cursor: default;
+  display: inline-block;
+  font-size: 14px;
+  font-weight: 700;
+  letter-spacing: 2px;
+  line-height: 1;
+  text-align: center;
+  text-transform: uppercase;
+  touch-action: manipulation;
+  transition-duration: 33ms;
+  transition-property: background-color, border-color, color, box-shadow, filter, transform;
+  user-select: none;
+  vertical-align: middle;
+  transform: translate3d(0px, 0px, 0px);
+  padding: 17px 48px;
+  background-color: rgb(29, 185, 84);
+  color: rgb(255, 255, 255);
+  margin-bottom: 1rem;
+}
+
+.form-btn > div .btn-login:hover {
+  transform: scale(1.05);
+  opacity: .9;
+}
+
+/* facebook botão */
+.btn-facebook {
+  width: 100%;
+  border: 0px;
+  border-radius: 500px;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 14px;
+  font-weight: 700;
+  letter-spacing: 2px;
+  line-height: 1;
+  text-align: center;
+  text-transform: uppercase;
+  touch-action: manipulation;
+  transition-duration: 33ms;
+  transition-property: background-color, border-color, color, box-shadow, filter, transform;
+  user-select: none;
+  vertical-align: middle;
+  transform: translate3d(0px, 0px, 0px);
+  padding: 17px 48px;
+  background-color: rgb(58, 88, 151);
+  color: rgb(255, 255, 255);
+}
+
+.btn-facebook:hover {
+  opacity: .7;
+  transform: scale(1.05);
+}
+
+/* privacy-terms
+ */
+ .privacy-terms, .form-check {
+  margin: 1rem 0;
+ }
+
+.privacy-terms .checkbox, .form-check .checkbox {
+  display: flex;
+}
+
+.privacy-terms .checkbox .check-terms, .form-check .checkbox .check-terms {
+  margin-right: 1rem;
+}
+
+.privacy-terms .checkbox span, .form-check .checkbox span {
+  text-align: left;
+}
+
+/* divisor */
+.line-divisor {
+  display: table;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 2px;
+  margin: 0px auto 1em;
+  color: rgb(117, 117, 117);
+  position: relative;
+  text-align: center;
+  width: 85%;
+}
+
+.line-divisor::before, .line-divisor::after {
+    border-top: 1px solid rgb(189, 189, 189);
+    content: "";
+    display: table-cell;
+    position: relative;
+    top: 0.8em;
+    width: 42%;
+}
+
+
+/* form login  */
+form.login {
+  width: 100%;
+}
+
+form.login .form-btn {
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.login-facebook {
+  margin: 1rem 0;
+}
+
+
+/* validation form  */
+label {
+  display: block;
+  margin-bottom: 5px
+}
+
+label i {
+  color: #999;
+  font-size: 80%;
+}
+
+input, select {
+  /* border: 1px solid #ccc; */
+  padding: 10px;
+  display: block;
+  width: 100%;
+  box-sizing: border-box;
+  border-radius: 2px;
+}
+
+.row {
+  padding-bottom: 10px;
+}
+
+.error {
+  color: red;
+  font-size: 90%;
+}
+
+.d-flex {
+  display: flex;
+}

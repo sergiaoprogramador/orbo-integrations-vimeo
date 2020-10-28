@@ -1,0 +1,120 @@
+/* hero inicio */
+section#home {
+  height: 500px;
+  overflow-x: auto;
+}
+
+section#home div#carousel-spotify, section#home div#carousel-spotify .carousel-item.active {
+  height: 20rem;
+}
+
+section#home div#carousel-spotify .carousel-item {
+  display: flex;
+  flex-direction: column;
+}
+
+section#home div#carousel-spotify .carousel-item h1 {
+  margin-bottom: 1rem;
+}
+
+section#home div#carousel-spotify .carousel-item a.btn-custom {
+  margin-bottom: .5rem;
+}
+
+section#home a {
+  text-decoration: none;
+}
+
+section#home a.btn {
+  /* border: 5px solid red; */
+  padding: 1rem 2rem;
+}
+
+
+/* carousel */
+.carousel.pointer-event {
+  -ms-touch-action: pan-y;
+  touch-action: pan-y;
+}
+
+.carousel {
+  position: relative;
+}
+
+.carousel-inner {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+}
+
+.carousel-item-next, .carousel-item-prev, .carousel-item.active {
+  display: block;
+}
+
+.carousel-item {
+  position: relative;
+  display: none;
+  float: left;
+  width: 100%;
+  margin-right: -100%;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  transition: -webkit-transform .6s ease-in-out;
+  transition: transform .6s ease-in-out;
+  transition: transform .6s ease-in-out,-webkit-transform .6s ease-in-out;
+}
+
+.carousel-control-next, .carousel-control-prev {
+  width: 5%;
+}
+
+.carousel-control-prev {
+  left: 0;
+}
+
+.carousel-control-next, .carousel-control-prev {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  z-index: 1;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-align: center;
+  align-items: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  width: 15%;
+  color: #fff;
+  text-align: center;
+  opacity: .5;
+  transition: opacity .15s ease;
+}
+
+.btn-custom {
+  margin: 10px 15px;
+  font-size: 1em;
+}
+
+@media (max-width: 768px) {
+  html, body, section#home {
+    height: 100%;
+    overflow-x: hidden;
+  }
+}
+
+@media (min-width: 768px) {
+  .carousel-item-next, .carousel-item-prev, .carousel-item.active {
+    display: block;
+  }
+
+  section#home div#carousel-spotify .carousel-item {
+    display: block;
+  }
+
+  section#home div#carousel-spotify .carousel-item h1 {
+    margin-bottom: 3rem;
+  }
+}
+
+
+
