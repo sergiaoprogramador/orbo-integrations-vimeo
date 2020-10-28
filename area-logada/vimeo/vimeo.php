@@ -20,6 +20,10 @@
     <!-- font awesome -->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
 
+    <!-- bootsrap -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
+        integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+
     <!-- estilo customizado -->
     <link rel="stylesheet" href="/css/reset.css">
     <link rel="stylesheet" href="/css/style.css">
@@ -118,8 +122,12 @@
           <?= $_SESSION['message'] ?>
         </div> -->
         <div class="row">
+        
+            <!-- <iframe src="https://player.vimeo.com/video/{video_id}" width="{video_width}" height="{video_height}" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe> -->
 
-          
+            <div id="playerOrbo"></div>
+
+            <!-- <iframe src="https://player.vimeo.com/video/470569855" width="1366" height="720"  frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe> -->
 
         </div>
 
@@ -129,6 +137,7 @@
     </section>
     <!-- fim seção home -->
     
+    <!-- inicio seção footer -->
     <footer>
         <div class="container">
             <div class="row">
@@ -179,8 +188,17 @@
             </div>
         </div>
     </footer>
+    <!-- fim seção footer -->
 
-    <!-- <script src="../js/dados-pessoais.js"></script> -->
+    <!-- scripts Bootstrap -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+    <!-- scripts Bootstrap -->
+    
+    <!-- Scripts Vimeo -->
+    <script src="https://player.vimeo.com/api/player.js"></script>
+    <script src="vimeo.js"></script>
+    <!-- Scripts Vimeo -->
     
 </body>
 </html>
