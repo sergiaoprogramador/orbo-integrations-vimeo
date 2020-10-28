@@ -87,7 +87,7 @@ Podemos usar o Player embed dentro de nossa página através de um Iframe ou pod
 </body>
 ```
 
-2 Player dentro da <div>
+2 Player dentro da `<div>`
     
 ```
 <body>
