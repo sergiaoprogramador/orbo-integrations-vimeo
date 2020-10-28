@@ -71,15 +71,13 @@ Sergio Ramos - [sergiaoprogramador.github.io](https://sergiaoprogramador.github.
 ## Player SDK - ORBO Integration <a name="orboSdk"></a>
 
 Antes de qualquer coisa devemos importar a SDK 
-ˋˋˋ
-<script src="https://player.vimeo.com/api/player.js"></script>
-ˋˋˋ
+```<script src="https://player.vimeo.com/api/player.js"></script>
+```
 
 Podemos usar o Player embed dentro de nossa página através de um Iframe ou podemos criar o Player dentro de uma <div> referenciada pelo ID. Vejamos ambos os casos a seguir: 
 
 1 Player embedado Iframe
-ˋˋˋ
-<body>
+ˋˋˋ<body>
 
   <iframe src="https://player.vimeo.com/video/{video_id}" width="{video_width}" height="{video_height}" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 
@@ -87,16 +85,14 @@ Podemos usar o Player embed dentro de nossa página através de um Iframe ou pod
 ˋˋˋ
 
 2 Player dentro da <div>
-ˋˋˋ
-<body>
+ˋˋˋ<body>
 
   <div id="playerOrbo"></div>
 
 </body>
 ˋˋˋ
 
-ˋˋˋ
-<script>
+ˋˋˋ<script>
   var optionsPlayer1 = {
     id: idVideo,
     width: larguraVideo
